@@ -1,0 +1,171 @@
+/* arquivo CSS Página Principal*/ 
+
+/* <TAGS> */
+a{
+    text-decoration: none;
+}
+h1{ /*mobile*/
+    color:#000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: left;
+}
+
+@media (min-width: 768px) { /*desktop*/
+    h1 {
+        font-size: 32px;
+        color:#000000;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+}
+
+h3 {/*mobile*/
+    color:#000000;
+    font-size:16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+@media (min-width: 768px) {/*desktop*/
+    h3 {
+        color:#000000;
+        font-size:16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+}
+span {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color:#000000;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    clear: both;
+    background-color: grey;
+    height: auto;   
+}
+section {
+    
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+    
+}
+@media (min-width: 768px) { /*desktop*/
+    section {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}    
+
+/* .CLASS */
+.foto_perfil {/* mobile */
+    float: left;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+@media (min-width: 350px) {
+    .foto_perfil {
+        float: left;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 50px;
+    } 
+}
+@media (min-width: 768px) {/* desktop*/
+    .foto_perfil {
+        float: left;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 50px;
+    } 
+}
+.container { /*mobile*/
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    border-width:1px;
+    border-color: grey;
+    border-width: thin;
+    border-style: solid;
+    padding: 10px;  
+    background-color: lightgray;  
+}
+@media (min-width: 768px){ /* desktop*/
+    .container {
+        width: 80%;
+        margin: auto;
+        margin-top: 150px;
+        border-width:1px;
+        border-color: grey;
+        border-width: thin;
+        border-style: solid;
+        padding: 10px;  
+        background-color: lightgray;  
+    }
+
+}    
+.div_esquerda{/* mobile */
+    height: auto; 
+    width: 70%;
+    margin-top: 20px;
+    float: right;
+}
+@media (min-width: 768px){ /* desktop*/
+    .div_esquerda{
+        height: auto; 
+        width: 70%;
+        margin-top: 20px;
+    }
+}
+
+
+.item {
+    background-color: white;
+    width: 200px;
+    margin: 50px;
+    text-align: center;
+}
+
+/* #IDS */
+#foto01 {
+    width: 200px;
+    margin: auto;
+}
+#foto02 {
+    width: 200px;
+    margin: auto;
+}
+#foto03 {
+    width: 200px;
+    margin: auto;
+}
+#foto04 {
+    width: 200px;
+    margin: auto;
+}
+#foto05 {
+    width: 200px;
+    margin: auto;
+}
+#foto06 {
+    width: 200px;
+    margin: auto;
+}
+

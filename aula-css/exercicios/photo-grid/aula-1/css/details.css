@@ -1,0 +1,134 @@
+/* arquivo CSS Página de Detalhes*/
+
+/* <TAGS> */
+a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#000000;
+    float: left;
+
+}
+h1 {
+    color:#000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    text-align: center;
+}
+h3 {
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+header {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    background-color: rgb(180, 178, 178); 
+    margin-left: 10%;
+    margin-right:10%;
+    border-width:1px;
+    border-color: grey;
+    border-width: thin;
+    border-style: solid;
+    padding: 10px;  
+}   
+section {
+    display: flex;
+    flex-direction: column;
+}
+/* .CLASS */
+
+.link_voltar {
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    margin-left: 2px;
+    float: left;
+}
+.titulo {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.bloco_nome {
+    background-color: white;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right:10%;
+    border-width:1px;
+    border-color: grey;
+    border-width: thin;
+    border-style: solid;
+    padding: 10px;  
+    background-color: lightgray; 
+    display: flex;
+    flex-direction: row;
+}
+.foto_perfil {
+    float: left;
+    height: 80px;
+    border-radius: 50%;
+    
+    
+}
+
+.nome {
+    float: left;
+    margin:10px;
+    height: auto;
+    width: auto; 
+}
+
+.descricao {
+    width: auto;
+    height: auto;
+    background-color: white ;
+    text-align: justify; 
+    margin-bottom: auto;
+}
+/* #IDS */
+#foto01 {
+    width: 100%;
+    margin: auto;
+    height: auto; 
+}
+#foto02 {
+    width: 100%;
+    margin: auto;
+    height: auto; 
+}
+#foto03 {
+    width: 100%;
+    margin: auto;
+    height: auto; 
+}
+#foto04 {
+    width: 100%;
+    margin: auto;
+    height: auto; 
+}
+#foto05 {
+    width: 100%;
+    margin: auto;
+    height: auto; 
+}
+#foto06 {
+    width: 100%;
+    margin: auto;
+    height: auto; 
+}
+#foto07 {
+    width: 100%;
+    margin: auto;
+    height: auto; 
+}
